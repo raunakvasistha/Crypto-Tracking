@@ -5,6 +5,9 @@ from datetime import datetime
 from datetime import date
 from dateutil.relativedelta import relativedelta
 import plotly.express as px
+from PIL import Image
+image = Image.open("bit.jpg")
+st.image(image)
 
 crypto_mapping = {"Bitcoin": "BTC-USD", "Ethereum": "ETH-USD"}
 
